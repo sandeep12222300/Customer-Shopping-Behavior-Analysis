@@ -35,7 +35,7 @@ It aims to identify purchasing patterns, customer segments, churn risk, and reve
 ## 📊 Power BI Dashboards
 
 ### 🔹 Page 1 – Customer Behavior Overview
-![Customer Behavior Dashboard](assets/page1_dashboard.png)
+![Customer Behavior Dashboard](assets/page1_dashboard.jpg)
 
 **Insights Covered:**
 - Total customers
@@ -48,7 +48,7 @@ It aims to identify purchasing patterns, customer segments, churn risk, and reve
 ---
 
 ### 🔹 Page 2 – Advanced Customer Insights & Segmentation
-![Advanced Customer Insights Dashboard](assets/page2_dashboard.png)
+![Advanced Customer Insights Dashboard](assets/page2_dashboard.jpg)
 
 **Advanced Analytics:**
 - Customer segmentation using ML
