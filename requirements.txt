@@ -1,0 +1,22 @@
+# Data Analysis and Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Data Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Database Connectivity
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Jupyter Support
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.19.0
+
+# Additional Utilities
+python-dotenv>=0.21.0
