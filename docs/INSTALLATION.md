@@ -166,6 +166,12 @@ cp .env.example .env
 # DB_NAME=customer_behavior
 ```
 
+**Validation:** After updating `.env`, verify the configuration:
+```bash
+# Check that .env file exists and has required variables
+grep -q "DB_PASSWORD=" .env && echo "✓ .env configured" || echo "✗ .env needs configuration"
+```
+
 **Important**: Never commit `.env` file to version control!
 
 #### 4. Test Database Connection
