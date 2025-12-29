@@ -6,6 +6,11 @@
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Customer%20Segmentation-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Documentation](https://img.shields.io/badge/Documentation-Complete-success)
+
 ---
 
 ## 📌 Project Overview
@@ -20,6 +25,31 @@ It aims to identify purchasing patterns, customer segments, churn risk, and reve
 - Identify high-value and churn-risk customers
 - Visualize insights using interactive Power BI dashboards
 - Support data-driven marketing and retention strategies
+
+---
+
+## 🚀 Quick Start
+
+### Automated Setup (Recommended)
+
+**On Linux/macOS:**
+```bash
+git clone https://github.com/sandeep12222300/Customer-Shopping-Behavior-Analysis.git
+cd Customer-Shopping-Behavior-Analysis
+chmod +x setup.sh
+./setup.sh
+```
+
+**On Windows:**
+```bash
+git clone https://github.com/sandeep12222300/Customer-Shopping-Behavior-Analysis.git
+cd Customer-Shopping-Behavior-Analysis
+setup.bat
+```
+
+### Manual Setup
+
+See detailed instructions in [docs/INSTALLATION.md](docs/INSTALLATION.md)
 
 ---
 
@@ -149,6 +179,17 @@ If you want to use PostgreSQL integration:
 
 ---
 
+## 📚 Documentation
+
+Comprehensive documentation is available in the `docs/` directory:
+
+- **[Installation Guide](docs/INSTALLATION.md)** - Detailed setup instructions with troubleshooting
+- **[Data Dictionary](docs/DATA_DICTIONARY.md)** - Complete description of all datasets and columns
+- **[Analysis Guide](docs/ANALYSIS_GUIDE.md)** - Methodology, interpretation, and business insights
+- **[Database Integration](docs/DATABASE.md)** - PostgreSQL setup and SQL query guide
+
+---
+
 ## 📁 Project Structure
 ```
 Customer-Shopping-Behavior-Analysis/
@@ -170,9 +211,22 @@ Customer-Shopping-Behavior-Analysis/
 │   └── Customer Shopping Behavior Analysis.pdf
 ├── presentation/                 # Project presentation
 │   └── Customer-Shopping-Behavior-Analysis.pptx
+├── config/                       # Configuration modules
+│   ├── __init__.py
+│   └── db_config.py             # Secure database configuration
+├── docs/                         # Documentation
+│   ├── INSTALLATION.md
+│   ├── DATA_DICTIONARY.md
+│   ├── ANALYSIS_GUIDE.md
+│   └── DATABASE.md
 ├── requirements.txt              # Python dependencies
+├── setup.sh                      # Linux/macOS setup script
+├── setup.bat                     # Windows setup script
+├── .env.example                  # Environment variables template
+├── .gitignore                    # Git ignore rules
 ├── CONTRIBUTING.md              # Contribution guidelines
 ├── CODE_OF_CONDUCT.md          # Community standards
+├── SECURITY.md                  # Security policy
 ├── LICENSE                      # MIT License
 └── README.md                    # Project documentation
 ```
